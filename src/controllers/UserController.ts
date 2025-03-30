@@ -187,8 +187,8 @@ UserController.delete(
 			user_id: t.String(),
 		}),
 		detail: {
-			summary: "Delete user",
-			description: "Delete user",
+			summary: "Delete user need user ID",
+			description: "Delete user user ID",
 		}
 	}
 )
